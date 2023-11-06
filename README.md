@@ -14,3 +14,9 @@ set(ACCEL_WRAPPER_OPTS ... CACHE STRING "")
 
 add_subdirectory(path/to/Arduino-Accelstepper)
 ```
+
+## Miscellaneous
+
+`Accelstepper` library is licensed under GPLv3, so we include a GPLv3 License
+file as well.
+
