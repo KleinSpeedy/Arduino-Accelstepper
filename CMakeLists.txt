@@ -63,7 +63,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 # We always set ARDUINO define to 100, because we always include Arduino.h
 target_compile_definitions(${PROJECT_NAME} PRIVATE ${ACCEL_WRAPPER_DEFS} "-DARDUINO=100")
 target_compile_options(${PROJECT_NAME} PRIVATE ${ACCEL_WRAPPER_OPTS})
-target_include_directories(${PROJECT_NAME} PRIVATE 
+target_include_directories(${PROJECT_NAME} PUBLIC
     ${ACCEL_WRAPPER_ARDUINO_INC_DIR}
     ${ACCEL_WRAPPER_PINOUT_HEADER}
 )
